@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a2248;
+    width: 400px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.s-n1 {
+    background-color: black;
+    width: 120px;
+    height: 90px;
+    padding: 0px;
+    color: #E14762;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: Typo Digit Demo;
+    text-align: center;
+}
+
+#h3-id {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    background-color: #1a2248;
+    color: #d4dbe4;
+    padding: 2px;
+    border: 1px solid #d4dbe4;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0px 5px 20px 5px;
+    font-family: Typo Digit Demo;
+}
+
+@font-face {
+    src: url("Typo Digit Demo.otf");
+    font-family: Typo Digit Demo;   
+}
